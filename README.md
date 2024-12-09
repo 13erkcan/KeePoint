@@ -37,10 +37,11 @@ Click the link below to watch the video demo showcasing the app's UI/UX:
 To set up and run this project, follow these steps:
 
 1. Make sure you have **Node.js** and **npm** installed.
-2. Install dependencies:
-   ```bash
+2. Install dependencies and start the project:
 
-npm install && npx expo start
+   ```console
+   $ npm install
+   $ npx expo start
 
 In the Expo development output, you'll find options to open the app in:
 
