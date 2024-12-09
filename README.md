@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🎵 KeePoint: Your Personalized Music Streaming App 🎶
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is **KeePoint**, a personalized music streaming application developed using [Expo](https://expo.dev).
 
-## Get started
+---
 
-1. Install dependencies
+## Author
 
+Created and maintained by Berk Can:  
+GitHub Profile: [https://github.com/13erkcan](https://github.com/13erkcan)  
+Feel free to reach out via GitHub for support or feedback.
+
+---
+
+## App Preview
+
+| Login Screen                       | Music Selection                     |
+|------------------------------------|-------------------------------------|
+| ![Login Screen](./assets/images/readmeui/a.jpg) | ![Music Selection](./assets/images/readmeui/b.jpg) |
+
+| User Dashboard                    | Settings Page                      |
+|-----------------------------------|------------------------------------|
+| ![User Dashboard](./assets/images/readmeui/c.jpg) | ![Settings Page](./assets/images/readmeui/d.jpg) |
+
+---
+
+## 🎥 Video Demo
+
+Click the link below to watch the video demo showcasing the app's UI/UX:  
+[![Watch the video](https://img.youtube.com/vi/_vL4MmV5eQg/0.jpg)](https://www.youtube.com/watch?v=_vL4MmV5eQg)  
+**[KeePoint: Personalized Music Streaming Experience (UI/UX)](https://www.youtube.com/watch?v=_vL4MmV5eQg)**
+
+---
+
+## Get Started 🚀
+
+To set up and run this project, follow these steps:
+
+1. Make sure you have **Node.js** and **npm** installed.
+2. Install dependencies:
    ```bash
-   npm install
-   ```
 
-2. Start the app
+npm install && npx expo start
 
-   ```bash
-    npx expo start
-   ```
+In the Expo development output, you'll find options to open the app in:
 
-In the output, you'll find options to open the app in a
+- A development build: https://docs.expo.dev/develop/development-builds/introduction/
+- Android emulator: https://docs.expo.dev/workflow/android-studio-emulator/
+- iOS simulator: https://docs.expo.dev/workflow/ios-simulator/
+- Expo Go: https://expo.dev/go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+KeePoint offers:
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Customizable playlists
+- High-quality audio streaming (48 to 320 kbps)
+- Download and play songs offline for premium users
+- Lyrics display during playback
+- Ad-free experience with a premium subscription
